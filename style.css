@@ -1,0 +1,106 @@
+body {
+    color: #000957;
+}
+
+h1,h2 {
+    color: #000957;
+    text-align: center;
+}
+
+h2+.display-6{
+    color: #EBE645;
+}
+
+.col-md-6>h2{
+    margin-top: 50px;
+}
+
+.container>h2{
+    margin-bottom: 50px;
+}
+
+p{
+    text-align: center;
+}
+
+.display-6{
+    color: #000957;
+}
+
+#email {
+    background-color: #EBE645;
+    color: #000957;
+    display: inline-block;
+    padding: 5px;
+}
+
+#email:hover{
+    background-color: #577BC1;
+    cursor: pointer;
+}
+
+#liveAlertPlaceholder+p {
+    color: #000957;
+}
+
+@media screen and (min-width:768px) {
+    .col-md-6>h2{
+        text-align: left;
+    }
+
+    p{
+        text-align: start;
+    }
+
+    #liveAlertPlaceholder+p {
+        text-align: center;
+    }
+}
+
+header,.projects {
+    background-color: #577BC1;
+}
+
+.profileimg {
+    width: 200px;
+    height: 200px;
+}
+
+.skill {
+    background-color: #344CB7;
+}
+
+.container{
+    padding-top: 70px;
+}
+
+.card{
+    background-color: #EBE645;
+    color: #344CB7;
+    transition: opacity 1s ease-in;
+}
+
+.hideme{
+    opacity: 0;
+}
+
+.showme{
+    opacity: 1;
+}
+
+.container,div[class="row"]>div:nth-child(2) {
+    transition: transform 2s, opacity 2s;
+}
+
+.slideme {
+    transform: translateX(-100%);
+    opacity: 0;
+}
+
+div[class="row"]>div:nth-child(2){
+    transition-delay: 1s;
+}
+
+#navbar {
+    background-color: #EBE645;
+}

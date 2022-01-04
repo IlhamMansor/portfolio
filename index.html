@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <script src="bootstrap.bundle.min.js"></script>
+</head>
+
+<body>
+
+    <nav id="navbar" class="navbar sticky-top navbar-light px-3">
+        <h1><a class="navbar-brand" href="#scrollspyHeading1">Ilham</a></h1>
+        <ul class="nav nav-pills">
+            <li class="nav-item">
+                <a class="nav-link" href="#scrollspyHeading2">Skills</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#scrollspyHeading3">Project</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#scrollspyHeading4">Contact</a>
+            </li>
+            <li>
+        </ul>
+    </nav>
+
+    <header class="p-3" id="scrollspyHeading1">
+        <div class="container slideme">
+            <div class="row">
+                <div class="col-md-6 d-flex justify-content-center align-items-center pb-3">
+                    <img src="https://scontent.fkul13-1.fna.fbcdn.net/v/t1.6435-9/33634198_2080554712193047_4120698843345977344_n.jpg?_nc_cat=107&ccb=1-5&_nc_sid=174925&_nc_ohc=BwIKkTs-opUAX8zQvwr&_nc_ht=scontent.fkul13-1.fna&oh=00_AT-TNQ_J61bQVJZOHLYD5I-tE81RSVC_54QlltNjdV3SLQ&oe=61F6E651"
+                        class="img-thumbnail profileimg" alt="profileimg">
+                </div>
+                <div class="col-md-6 slideme">
+                    <h2>Hello, It's me</h2>
+                    <p class="display-6"><b>MUHAMMAD ILHAM THAQIF BIN MANSOR</b></p>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Doloribus placeat ipsa vel, fugit
+                        quibusdam
+                        laborum delectus quia libero eveniet impedit fugiat dolore, optio praesentium voluptas earum
+                        assumenda laboriosam. In, deleniti.</p>
+                </div>
+            </div>
+        </div>
+    </header>
+    <section class="skill p-3" id="scrollspyHeading2">
+        <div class="container">
+            <h2>My skillset</h2>
+            <div class="row">
+                <div class="col-md-4 p-3">
+                    <div class="card hideme">
+                        <div class="card-body">
+                            <h3 class="display-6">Software</h3>
+                            <ul>
+                                <li>Microsoft Office</li>
+                                <li>Arduino IDE</li>
+                                <li>AutoCAD</li>
+                                <li>Git</li>
+                                <li>Node.js</li>
+                                <li>Proteus</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 p-3 px-md-0">
+                    <div class="card hideme">
+                        <div class="card-body">
+                            <h3 class="display-6">Programming language</h3>
+                            <ul>
+                                <li>Javascript</li>
+                                <li>C</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 p-3">
+                    <div class="card hideme">
+                        <div class="card-body">
+                            <h3 class="display-6">Framework</h3>
+                            <ul>
+                                <li>Bootstrap</li>
+                                <li>Express</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="projects py-3" id="scrollspyHeading3">
+        <div class="container">
+            <h2>Projects that I contributes to</h2>
+            <div class="row">
+                <div class="col-md-6 p-3">
+                    <img src="Images/image1.jpg" class="card-img-top" alt="project1">
+                    <div class="card">
+                        <div class="card-body">
+                            <h3 class="display-6">Automatic location sending smoke detector</h3>
+                            <button type="button" class="btn btn-primary" data-bs-toggle="modal"
+                                data-bs-target="#smokeDetector">
+                                Read more
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 p-3 ps-md-0">
+                    <img src="Images/image3.jpg" class="card-img-top" alt="project1">
+                    <div class="card">
+                        <div class="card-body">
+                            <h3 class="display-6">Flood detector alert using ESP8266</h3>
+                            <button type="button" class="btn btn-primary" data-bs-toggle="modal"
+                                data-bs-target="#floodDetector">
+                                Read more
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Modal -->
+            <div class="modal fade" id="smokeDetector" tabindex="-1" aria-labelledby="exampleModalLabel"
+                aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="exampleModalLabel">Smoke detector</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                            <h3>Introduction</h3>
+                            <p>
+                                This is my first project which is for my final year diploma. My team want to make
+                                product that can be use for detecting smoke and alerting the person with authoritize. So
+                                its make it easier for them to take action quickly.
+                            </p>
+                            <h3>Using</h3>
+                            <ul>
+                                <li>Arduino</li>
+                                <li>MQ-2 Smoke detector</li>
+                                <li>GSM</li>
+                                <li>GPS</li>
+                            </ul>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="modal fade" id="floodDetector" tabindex="-1" aria-labelledby="exampleModalLabel"
+                aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="exampleModalLabel">Flood detector</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                            <h3>Introduction</h3>
+                            <p>This is one of my junior project. The perpose of this project is to help giving update
+                                via twitter to high flood risk location so that they get to know how high the water
+                                level and they can take the next action. <b>PS in this project I only contribute to the
+                                    code.</b></p>
+                            <h3>Using</h3>
+                            <ul>
+                                <li>Arduino</li>
+                                <li>ESP8266</li>
+                                <li>Flood sensor</li>
+                                <li>Ultrasonic sensor</li>
+                            </ul>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="skill p-3" id="scrollspyHeading4">
+        <div class="container">
+            <h2>Contact</h2>
+            <div id="liveAlertPlaceholder"></div>
+            <p>Please contact me at
+                <b id="email" data-bs-toggle="tooltip" title="Copy to clipboard">ilhamthaqif98@gmail.com</b>
+            </p>
+        </div>
+    </section>
+
+    <script>
+        let copyText = document.getElementById("email");
+        let alertPlaceholder = document.getElementById('liveAlertPlaceholder')
+
+        function alert(message, type) {
+            var wrapper = document.createElement('div')
+            wrapper.innerHTML = '<div class="alert alert-' + type + ' alert-dismissible  fade show" role="alert">' + message + '<button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button></div>'
+
+            alertPlaceholder.append(wrapper)
+        }
+
+        copyText.addEventListener('click', () => {
+            alert("Ayy! Email copied to clipboard!", "primary");
+            navigator.clipboard.writeText(copyText.innerHTML);
+        })
+
+        let cards = document.querySelectorAll(".card");
+        let header = document.querySelector(".container");
+        let headerText = document.querySelector('div[class="row"]>div:nth-child(2)');
+
+        window.onload = function () {
+            header.classList.remove("slideme");
+            headerText.classList.remove("slideme")
+
+            var tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'))
+            var tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
+                return new bootstrap.Tooltip(tooltipTriggerEl)
+            })
+
+            window.onscroll = function () {
+                cards.forEach(card => {
+                    let bottom_of_object = card.offsetTop + card.scrollHeight
+                    let bottom_of_window = this.scrollY + this.innerHeight;
+                    if (bottom_of_window > bottom_of_object) {
+                        card.classList.add('showme');
+                    }
+                    if (bottom_of_window < bottom_of_object) {
+                        card.classList.remove('showme');
+                    }
+                });
+            }
+        }
+
+    </script>
+</body>
+
+</html>
